@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    background-color: rgb(207, 18, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #151516;
+    padding: 10px;
+}
+
+body {
+    height: 100vh;
+    color: white;
+    background-color: black;
+    /* padding: 10px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "box1 box1 box2 box3"
+                         "box1 box1 box2 box6"
+                         "box4 box7 box2 box6             "
+                         "box4 box8 box9 box9"
+                         "box4 box5 box9 box9"
+                         "box4 box5 box9 box9";
+    border: 2px solid black;
+    /* height: 50%; */
+    /* width: fit-content; */
+    /* padding: 20px; */
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+}
+
+.box-1 {
+    grid-area: box1;
+    /* width: fit-content;  */
+    /* height: fit-content;  */
+    /* padding: 20px; */
+}
+.box-2 {
+    grid-area: box2;
+    /* width: fit-content; */
+    /* height: fit-content; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: center;
+    width: 300px;
+    /* height: 500px; */
+    justify-content: space-around;
+}
+.box-3 {
+    grid-area: box3;
+    /* width: fit-content; */
+    /* height: fit-content; */
+    padding: 30px;
+    background-image: linear-gradient(to right,#A759F8,#8240D8);
+    display: flex;
+    gap: 20px;
+}
+.box-4 {
+    grid-area: box4;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid #C0CA6F;
+    /* width: fit-content; */
+    /* height: fit-content; */
+    padding: 30px;
+    align-items: start;
+    gap: 30px;
+}
+.box-5 {
+    grid-area: box5;
+    /* height: fit-content; */
+    padding: 20px;
+    background-color: #D5F257;
+    color: black;
+    display: flex;
+    gap: 20px;
+}
+.box-6 {
+    grid-area: box6;
+    /* width: fit-content; */
+    /* height: fit-content; */
+    /* padding: 20px; */
+}
+.box-7 {
+    grid-area: box7;
+    /* width: fit-content; */
+    /* height: fit-content; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+}
+.box-8 {
+    grid-area: box8;
+    /* width: fit-content; */
+    /* height: fit-content; */
+    /* padding: 20px; */
+}
+.box-9 {
+    grid-area: box9;
+    /* width: fit-content; */
+    /* height: fit-content; */
+    padding: 30px;
+    background-color: white;
+    color: #151516;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box1images {
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 6rem;
+}
+
+.leftsubheading {
+    color: #B25CFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    font-size: 1.1rem;
+}
+
+.leftdiscription {
+    font-size: 1.2rem;
+    
+}
+
+.leftimageanddescription {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: 2px solid gray;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.barcode {
+    align-self: center;
+}
+
+.box7top {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+.greytext {
+    color: gray;
+}
+
+.bottomdisc {
+    display: flex;
+    gap: 100px;
+}
+
+.smileybox {
+    border-right: 2px solid rgb(194, 193, 193);
+    padding-right: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.box2inside {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.gap {
+    margin-bottom: 50px;
+}
+
+.bottomtitle {
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.bottombutton {
+    display: flex;
+    background-color: #7539C6;
+    border-radius: 20px;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+img {
+    width: auto;
+}
